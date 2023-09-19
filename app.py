@@ -8,8 +8,8 @@ from telegram import InlineKeyboardMarkup, InlineKeyboardButton, Bot, Update, Ke
 app = Flask(__name__)
 
 # 設定你的token
-bot = telegram.Bot(token=('你的token'))
-bot.send_message(chat_id = '你的ID', text ='你可以開始了')
+bot = telegram.Bot(token=('6629543795:AAFQ_FkSActMnZ4Qv75ZZlhRcCiQPVKDC0I'))
+bot.send_message(chat_id = '5013672765', text ='你可以開始了')
 
 @app.route('/hook', methods=['POST'])
 def webhook_handler():
